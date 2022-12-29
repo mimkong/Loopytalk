@@ -6,7 +6,7 @@ body{
 
 #box {
     width: 200px;
-    height: 500px;
+    height: 400px;
     border: solid 4px lightseagreen;
     padding: 50px 20px;
 }
@@ -26,4 +26,20 @@ body{
 .status-bar__column:last-child{
     display:flex;
     justify-content: center;
+}
+
+.main-list{
+    padding-top: 20px;
+}
+
+#main-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 15%;
+    background-color: rgb(255, 204, 38);
+    border: solid 2px black;
+}
+
+.fa-image {
+    color:white;
 }
