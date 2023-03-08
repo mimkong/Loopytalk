@@ -22,6 +22,11 @@
     font-size: 22px;
 }
 
+.user-component__title__number {
+    display: flex;
+    align-items: center;
+}
+
 .user-component__subtitle {
     margin-top: 8px;
     font-size: 17px;

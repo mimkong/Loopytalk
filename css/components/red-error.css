@@ -1,0 +1,11 @@
+.red-error{
+    color:tomato;
+    border:1px solid tomato;
+    font-size: 4px;
+    margin-left: 4px;
+    margin-top: 10px;
+    width:12px;
+    height: 12px;
+    border-radius: 50%;
+    text-align:center;
+}
