@@ -13,6 +13,7 @@
 @import "/css/components/red-error.css";
 @import "/css/components/icon-raw.css";
 @import "/css/components/alt-screen-header.css";
+@import "/css/components/no-mobile.css";
 
 /* Screens */
 @import "/css/screens/login.css";

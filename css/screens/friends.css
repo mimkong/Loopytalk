@@ -27,3 +27,28 @@
     align-items: center;
     color: rgba(0, 0, 0, 0.5);
 }
+
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden; /* 마우스에 걸리지 않게 빠지는 것, html을 없애고싶을땐 JS사용 (JS는 뇌 같은 존재) */
+    }
+}
+
+#splash-screen {
+    background-color: var(--yellow);
+    position: absolute;
+    height: 100vh; /* 화면 높이의 100% */
+    width: 100vw; /* 화면 넓이의 100% */
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    animation: hideSplashScreen 0.2s ease-in-out forwards;
+    animation-delay: 1.5s;
+}
+
