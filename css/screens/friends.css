@@ -1,54 +1,56 @@
 #friends-display-link {
-    text-align: center;
-    display: block;
-    background-color: #fafafa;
-    padding: 15px 0px;
-    margin-bottom: 15px;
-    margin-top: -15px;
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  margin-bottom: 15px;
+  margin-top: -15px;
 }
 
-#friends-display-link i{
-    color: rgba(0, 0, 0, 0.3);
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .friends-screen {
-    padding: 0px var(--horizontal-space);
+  padding: 0px var(--horizontal-space);
 }
-.friends-screen__channel {
-    margin-top: 25px;
-    border-top: var(--main-border);
-    padding-top: 15px;
+.friends-screen__channel,
+.friends-screen__friends {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 15px;
 }
 
 .friends-screen__channel-header {
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 @keyframes hideSplashScreen {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        visibility: hidden; /* 마우스에 걸리지 않게 빠지는 것, html을 없애고싶을땐 JS사용 (JS는 뇌 같은 존재) */
-    }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden; /* 마우스에 걸리지 않게 빠지는 것, html을 없애고싶을땐 JS사용 (JS는 뇌 같은 존재) */
+  }
 }
 
 #splash-screen {
-    background-color: var(--yellow);
-    position: absolute;
-    height: 100vh; /* 화면 높이의 100% */
-    width: 100vw; /* 화면 넓이의 100% */
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 120px;
-    animation: hideSplashScreen 0.2s ease-in-out forwards;
-    animation-delay: 1.5s;
+  background-image: url(/img/잔망루피\ 배경화면_오리지널_분홍.jpg);
+  background-size: 100% 100vh;
+  position: absolute;
+  height: 100vh; /* 화면 높이의 100% */
+  width: 100vw; /* 화면 넓이의 100% */
+  top: 0;
+  animation: hideSplashScreen 0.2s ease-in-out forwards;
+  animation-delay: 1.5s;
 }
 
+#splash-screen img {
+  width: 200px;
+  height: 250px;
+}

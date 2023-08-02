@@ -1,88 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat - HyeWonTalk</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>대화 - 잔망루피톡</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body id="chat-screen">
+  <body id="chat-screen">
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fa-solid fa-wifi"></i>
-        </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <span>100%</span>
-            <i class="fa-solid fa-battery-full fa-lg"></i>
-            <i class="fa-solid fa-bolt-lightning"></i>
-        </div>
+      <div class="status-bar__column">
+        <span>뽀롱뽀롱마을</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
     </div>
 
     <header class="alt-header">
-        <div class="alt-header__column">
-            <a href="chats.html">
-            <i class="fa-solid fa-angle-left fa-2x"></i>
-            </a>
-        </div>
-        <div class="alt-header__column">
-            <h1 class="alt-header__title">Hyewon</h1>
-        </div>
-        <div class="alt-header__column">
-            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-            <span><i class="fa-solid fa-bars fa-lg"></i></span>
-        </div>
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">뽀로로</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
     </header>
 
     <main class="main-screen main-chat">
-        <div class="chat__timestamp">
-            <span></span>
-            2023년 3월 8일 수요일
-        </div>
+      <div class="chat__timestamp">
+        <span></span>
+        2023년 8월 2일 수요일
+      </div>
 
-        <div class="message-row">
-            <img src="https://avatars.githubusercontent.com/u/104357796?v=4">
-            <div class="message-row__content">
-                <span class="message__author">Hyewon</span>
-                <div class="message_info">
-                    <span class="message_bubble">잘 지내?</span>
-                    <span class="message_time">21:22</span>
-                </div>
-            </div>
+      <div class="message-row">
+        <img src="./img/뽀로로.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">뽀로로</span>
+          <div class="message_info">
+            <span class="message_bubble">친구들이랑 포비 집으로 가자!</span>
+            <span class="message_time">11:16</span>
+          </div>
         </div>
+      </div>
 
-        <div class="message-row message-row--own">
-            <div class="message-row__content">
-                <div class="message_info">
-                    <span class="message_bubble">엥?</span>
-                    <span class="message_time">21:22</span>
-                </div>
-            </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message_info">
+            <span class="message_bubble">알았어 금방 갈게~</span>
+            <span class="message_time">11:28</span>
+          </div>
         </div>
+      </div>
     </main>
 
     <form class="reply">
-        <div class="reply__column">
-            <i class="fa-regular fa-square-plus fa-lg"></i>
-        </div>
-        <div class="reply__column">
-            <input type="text" placeholder="Write a message..." />
-            <i class="fa-regular fa-face-smile fa-lg"></i>
-            <button>
-                <i class="fa-solid fa-arrow-up"></i>
-            </button>
-        </div>
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
     </form>
 
     <div id="no-mobile">
-        <span>Your screen is too big!</span>
+      <span>화면을 줄여주세요!</span>
     </div>
-    
-<script src="https://kit.fontawesome.com/63edf9a3e1.js" crossorigin="anonymous"></script>
-</body>
+
+    <script
+      src="https://kit.fontawesome.com/63edf9a3e1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
