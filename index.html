@@ -7,7 +7,7 @@
     <title>잔망루피톡에 오신걸 환영합니다</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <div class="welcome-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>뽀롱뽀롱마을</span>
@@ -22,28 +22,23 @@
         <i class="fa-solid fa-bolt-lightning"></i>
       </div>
     </div>
-    <div class="welcome-screen">
-      <header class="welcome-header">
-        <h1 class="welcome-header__title">환영합니다</h1>
-        <p class="welcome-header__text">잔망루피톡 아이디가 있다면,</p>
-        <p class="welcome-header__text">이메일이나 휴대폰번호를</p>
-        <p class="welcome-header__text">입력해주세요.</p>
-      </header>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">환영합니다</h1>
+      <p class="welcome-header__text">잔망루피톡 아이디가 있다면,</p>
+      <p class="welcome-header__text">이메일이나 휴대폰번호를</p>
+      <p class="welcome-header__text">입력해주세요.</p>
+    </header>
 
-      <form action="friends.html" method="get" id="login-form">
-        <input
-          name="username"
-          type="text"
-          placeholder="Email or phone number"
-        />
-        <input name="password" type="password" placeholder="Password" />
-        <input type="submit" value="Log In" />
-        <a href="#">Find Loopy Account or Password</a>
-      </form>
-    </div>
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Loopy Account or Password</a>
+    </form>
     <div id="no-mobile">
       <span>화면을 줄여주세요!</span>
     </div>
+</div>
 
     <script
       src="https://kit.fontawesome.com/63edf9a3e1.js"

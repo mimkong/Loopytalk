@@ -19,7 +19,8 @@
 }
 
 .welcome-screen {
-  background-image: url(../img/잔망루피\ 잠금화면_부끄.jpg);
+  height: 100vh;
+  background-image: url(/img/login.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
 }
