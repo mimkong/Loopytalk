@@ -40,7 +40,7 @@
 }
 
 #splash-screen {
-  background-image: url(/img/잔망루피\ 배경화면_오리지널_분홍.jpg);
+  background-image: url(./img/잔망루피\ 배경화면_오리지널_분홍.jpg);
   background-size: 100% 100vh;
   position: absolute;
   height: 100vh; /* 화면 높이의 100% */

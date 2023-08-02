@@ -1,40 +1,40 @@
 .more-screen .icon-row {
-    margin-top: 35px;
+  margin-top: 35px;
 }
 
 .more-suggestions {
-    margin-top: 50px;
-    border-top : var(--main-border);
-    padding-top: 30px;
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 30px;
 }
 
 .more-suggestions__title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .more-suggestions__icons {
-    display: flex;
+  display: flex;
 }
 
 .more-suggestions__icon {
-    margin-right: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .more-suggestions__icon-image {
-    width: 60px;
-    height: 60px;
-    background-color: var(--pink);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: var(--pink);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .more-suggestions__icon-image i {
-    font-size: 32px;
-    color: white;
+  font-size: 32px;
+  color: white;
 }
